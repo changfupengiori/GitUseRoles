@@ -7,9 +7,10 @@ remark:
 class BaseClass():
     def __init__(self):
         pass
-    def show(self):
+    def show(self,a='默认值参数'):
         print("我是第一个开发人员编写的方法")
-        print("第二个人再次添加了bug修复")
+        #修复补丁的时候修改了这个位置同时修改了参数
+        print("第三个人在此修复bug。同传参："+a)
 
 cc=BaseClass()
 cc.show()
