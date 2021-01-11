@@ -9,6 +9,7 @@ class BaseClass():
         pass
     def show(self):
         print("我是第一个开发人员编写的方法")
+        print("第二个人再次添加了bug修复")
 
 cc=BaseClass()
 cc.show()
